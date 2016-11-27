@@ -1,0 +1,5 @@
+sudo useradd -d /var/www/html/blog -s /sbin/nologin admin
+sudo passwd ftp_user
+hanhphuclakhianhcoem
+
+sudo chown ftp_user /var/www/html/blog/ -R
